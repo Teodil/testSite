@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Picture{
+    height: 100vh;
+    width: 100%;
+    background-color: #e03487d5;
+    background-image: 
+    url('../images/back/vaza.png'),
+    url('../images/back/table.png');
+    background-repeat: no-repeat;
+    background-size: 10%,20%;
+    background-position: 50% 75%,bottom;
+}

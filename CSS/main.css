@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'OurFont';
+    src: url('../fonts/Commissioner-VariableFont_wght.ttf');
+}
+
+.OurFontText{
+    font-family: 'OurFont';
+}
+
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /*сверху-снизу слева-справа*/
+    /*padding: 15px; /*Отсупы со всех сторон*/
+    margin-bottom: 100px;
+}
+
+.LogoText{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+.LightText{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    height: fit-content;
+    width: 50%;
+    /*overflow:auto;*/
+}
+
+.SemiBoldText{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-style: italic;
+    /*
+    height: 100px;
+    width: 100px;
+    */
+    background-color: rgb(52, 52, 143);
+    padding: 50px 40px 30px 10px;
+    margin: 30px 10px;
+    border: 5px solid rgb(47, 207, 167);
+    border-radius: 50px;
+
+    box-shadow: 20px 20px 40px 5px rgb(0, 0, 0);
+
+    opacity: 0.5;
+    /*border-bottom: 5px solid rgb(47, 207, 167);*/
+}
+
+.ExtraBoldText{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 800;
+}
+
+.NavText{
+    color: rgba(129, 73, 184,0.8)!important;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.CenterTextCell{
+    text-align:center;
+}
+
+.evenBlock{
+background-color: cadetblue;
+}
+
+.HeaderTitle{
+    display: flex;
+}
+
+.Block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.gap{
+    margin-right: 10px;
+}
+body {
+    margin: 0px;
+}
+
+.MenuBlock{
+    /*background-color: #8149b8;*/
+    /*background-color: rgb(129, 73, 184);*/
+    background-color: rgba(129, 73, 184,0.5);
+}
+
+.ContactBlock{
+    height: 200px;
+    background-image: url('../images/back/челик.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /*
+    background: radial-gradient(circle, rgba(42,222,122,1) 0%, rgba(19,48,196,1) 38%, rgba(255,0,33,1) 100%);
+    /*
+    background: linear-gradient(58deg, rgba(42,222,122,1) 0%, rgba(19,48,196,1) 38%, rgba(255,0,33,1) 100%);;
+    */
+}
+
+.BackConnectBlock{
+    background-image: url('../images/back/office.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

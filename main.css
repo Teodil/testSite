@@ -1,0 +1,31 @@
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; /*сверху-снизу слева-справа*/
+    /*padding: 15px; /*Отсупы со всех сторон*/
+    margin-bottom: 100px;
+}
+
+.evenBlock{
+background-color: cadetblue;
+}
+
+.HeaderTitle{
+    display: flex;
+}
+
+.Block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.gap{
+    margin-right: 10px;
+}
+body {
+    margin: 0px;
+}
